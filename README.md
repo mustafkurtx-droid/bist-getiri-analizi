@@ -10,14 +10,14 @@ fiyat verisi kullanılarak risk-getiri analizi yapılmıştır.
 - Hisseler arası korelasyon matrisi
 - Kümülatif getiri karşılaştırması
 
-## 🏆 Öne Çıkan Bulgular
+## Öne Çıkan Bulgular
 - En iyi Sharpe oranı: BIMAS (1.29) — düşük risk, istikrarlı getiri
 - En yüksek getiri: SASA (%65.83) — yüksek volatilite ile birlikte
 - En düşük getiri: HALKB (%19.72)
 - Banka hisseleri arasında yüksek korelasyon tespit edildi (0.85+)
 - BIMAS + THYAO + ASELS + FROTO kombinasyonu ideal çeşitlendirme sağlar
 
-## 🛠️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 | Kütüphane | Amaç |
 |-----------|------|
 | `yfinance` | Hisse verisi çekme |
@@ -34,7 +34,7 @@ bist-getiri-analizi/
 ├── bist_korelasyon.png      # Korelasyon matrisi
 └── bist_getiri_analiz.png   # Kümülatif getiri grafiği
 
-## ⚙️ Kurulum & Çalıştırma
+## Kurulum & Çalıştırma
 ```bash
 pip install yfinance pandas numpy matplotlib seaborn
 jupyter notebook Proje.ipynb
